@@ -1,0 +1,11 @@
+# Google App Engine generated folder
+appengine-generated/
+
+# Site Images
+view/static/images/
+
+# Site Fonts
+view/static/fonts/
+
+# External Libraries
+github.com/

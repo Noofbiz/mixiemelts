@@ -1,0 +1,106 @@
+@font-face {
+  font-family: "King Basil";
+  src: url("../fonts/King-Basil.ttf") format("truetype");
+}
+
+body {
+  background-color: #fffeee;
+  padding-top: 70px;
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+
+#navbar {
+  font-family: "King Basil", cursive;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+}
+
+/* -------------------------------------------------- */
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body > .container {
+  padding: 60px 15px 0;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/* -------------------------------------------------- */
+
+/* Vertical Centering in Bootstrap */
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+/* -------------------------------------------------- */
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  height: 400px;
+  margin-bottom: 5px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 400px;
+  background-color: #777;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%!important;
+  height: 400px;
+}
+
+/* CUSTOMIZE THE USER PAGE WELLS
+-------------------------------------------------- */
+
+.mixie-well:nth-child(2n) {
+  background-color: #d6ddfc;
+}
+
+.mixie-well:nth-child(2n+1){
+  background-color: #b8c4f9;
+}
+
+.rborder {
+  border-right: 1px solid #333;
+}
+
+#RecipeQtyIn{
+  max-width: 3vw;
+}
+/* -------------------------------------------------- */
